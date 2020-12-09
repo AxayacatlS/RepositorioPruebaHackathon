@@ -1,0 +1,21 @@
+<?php
+$dbhost="localhost";
+    $dbuser="root";
+    $dbpass="";
+    $dbname="pilotohackathon";
+    $conn=mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+    if(!$conn)
+    {
+        die("No hay conexion: ".mysqli_connect_error());
+    }
+?>
+
+mysql://bb4cf1fd92535b:17760114@us-cdbr-east-02.cleardb.com/heroku_053beb0281909a4?reconnect=true
+
+mysql://
+bb4cf1fd92535b
+:
+17760114
+@
+us-cdbr-east-02.cleardb.com
+/heroku_053beb0281909a4?reconnect=true

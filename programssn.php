@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <title>Prueba | Cursos</title>
 <meta charset="utf-8">
@@ -26,7 +26,7 @@
           <ul id="menu">
             <li><a href="index.php">Inicio</a></li>
             <li><a href="programssn.php">Cursos</a></li>
-            <li><a href="#">Ingresar</a></li>
+            <li><a href="login.php">Ingresar</a></li>
             
             <!--<li class="end"><a href="contacts.html">Contacts</a></li>-->
           </ul>
@@ -73,7 +73,7 @@
               <!--<figure class="left marg_right1"><img src="images/page3_img3e.jpg" alt=""></figure>-->
               <p class="pad_bot1 pad_top2"><strong>Establecer un perfil</strong> <br>
                 Puede ingresar la sistema para llevar un mejor control de sus cursos</p>
-              <a href="#" class="button marg_left1"><span><span>Registrarse</span></span></a> </div>
+              <a href="registro.php" class="button marg_left1"><span><span>Registrarse</span></span></a> </div>
           </article>
           <article class="col2 pad_left2">
             <div class="pad_left1">

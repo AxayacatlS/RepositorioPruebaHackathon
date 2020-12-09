@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <title>Prueba</title>
 <meta charset="utf-8">
@@ -26,7 +26,7 @@
           <ul id="menu">
             <li><a href="index.php">Inicio</a></li>
             <li><a href="programssn.php">Cursos</a></li>
-            <li><a href="" data-toggle="modal" data-target="#modalLoginForm">Ingresar</a></li>
+            <li><a href="login.php" data-toggle="modal" data-target="#modalSubscriptionForm">Ingresar</a></li>
             <!--<li><a href="teachers.html">Teachers</a></li>
             <li><a href="admissions.html">Admissions</a></li>
             <li class="end"><a href="contacts.html">Contacts</a></li>-->
@@ -65,6 +65,9 @@
             <!--
 
         -->
+        <audio autoplay controls="controls"> <source src="http://radios.inpi.gob.mx:8080/xetla/stream" type="audio/mpeg" /> </audio>
+        <p></p>
+        <p></p>
         </div>
       </div>
       <div class="box1">
@@ -85,7 +88,7 @@
               <p class="pad_bot1 pad_top2"><strong>Puede registrase en nuestro plataforma para llevar mejor control de lo que esta estudiando.</strong></p>
 
             </div>
-            <div class="pad_top2"> <a href="" class="button" data-toggle="modal" data-target="#modalLoginForm"><span><span>Registrese</span></span></a> </div>
+            <div class="pad_top2"> <a href="registro.php" class="button" ><span><span>Registrese</span></span></a> </div>
           </article>
           <article class="col2 pad_left2">
             <div class="pad_left1">
@@ -127,7 +130,7 @@
             <div class="wrapper">
               <article class="col_1">
                 <h3>Nos interesa su opinion</h3>
-                <a href="#" class="button"><span><span><strong>Subscribe</strong></span></span></a>
+                <a href="#" class="button"><span><span><strong>Agregue su opinion</strong></span></span></a>
               </article>
             </div>
 
@@ -145,36 +148,7 @@
 
 <!--LOGIN MODAL-->
 
-<!--
-<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Ingrese sus datos</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-	  </div>
-	  <form action="assets/loginuser.php" method="POST">
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-		  <label data-error="wrong" data-success="right" for="defaultForm-email">Correo electronico:</label>
-          <input type="email" id="email-modallogin" name="email-modallogin" class="form-control validate" required>
-        </div>
-        <div class="md-form mb-4">
-		  <label data-error="wrong" data-success="right" for="defaultForm-pass">Contraseña:</label>
-          <input type="password" id="password-modallogin" name="password-modallogin" class="form-control validate" required>
-        </div>
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-		<button class="btn btn-primary btn-outline with-arrow btn-sm" id="boton-modallogin" >Ingresar</button>
-		<label>¿No tiene una cuenta?, Cree una <a data-toggle="modal" data-target="#modalRegisterForm">aqui</a></label>
-	  </div>
-	</form>
-    </div>
-  </div>
-</div>
--->
+
 <script type="text/javascript">Cufon.now();</script>
 </body>
 </html>

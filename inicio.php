@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <title>Prueba</title>
 <meta charset="utf-8">
@@ -67,6 +67,7 @@
             <!--
             
         -->
+        <audio autoplay controls="controls"> <source src="http://radios.inpi.gob.mx:8080/xetla/stream" type="audio/mpeg" /> </audio>
         </div>
       </div>
       <div class="box1">
