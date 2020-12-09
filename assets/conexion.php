@@ -2,7 +2,7 @@
 $dbhost="us-cdbr-east-02.cleardb.com";
     $dbuser="bb4cf1fd92535b";
     $dbpass="17760114";
-    $dbname="heroku_053beb0281909a4";
+    $dbname="pilotohackathon";
     $conn=mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
     if(!$conn)
     {
