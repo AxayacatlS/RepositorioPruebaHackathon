@@ -11,7 +11,7 @@
 	$message_adduser='';
 	require("conexion.php");
 //la variable  $mysqli viene de connect_db que lo traigo con el require("connect_db.php");
-	$checkemail=mysqli_query($conn,"SELECT * FROM usuario WHERE correo='$mail'");
+	$checkemail=mysqli_query($conn,"SELECT * FROM heroku_053beb0281909a4.usuario WHERE correo='$mail'");
 	$check_mail=mysqli_num_rows($checkemail);
 		if($pass==$rpass){
 			
@@ -19,7 +19,7 @@
                 echo 'Correo ya existente';
 				header("Location: ../");	
 			}else{
-                $sqli="INSERT INTO usuario (correo, nombre, app, apm, direccion, contrasenia) VALUES ('$mail','$nombre','$ap','$am','$colonia','$pass')";
+                $sqli="INSERT INTO heroku_053beb0281909a4.usuario (correo, nombre, app, apm, direccion, contrasenia) VALUES ('$mail','$nombre','$ap','$am','$colonia','$pass')";
                 if(mysqli_query($conn,$sqli))
                 {
                     echo 'Agregado correctamente ya puede ingresar';
