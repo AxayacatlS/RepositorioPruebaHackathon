@@ -26,7 +26,7 @@
           <ul id="menu">
             <li><a href="index.php">Inicio</a></li>
             <li><a href="programssn.php">Cursos</a></li>
-            <li><a href="login.php" data-toggle="modal" data-target="#modalSubscriptionForm">Ingresar</a></li>
+            <li><a href="login.php">Ingresar</a></li>
             <!--<li><a href="teachers.html">Teachers</a></li>
             <li><a href="admissions.html">Admissions</a></li>
             <li class="end"><a href="contacts.html">Contacts</a></li>-->
